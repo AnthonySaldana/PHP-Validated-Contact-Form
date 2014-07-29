@@ -1,0 +1,4 @@
+#contactform{background-color:rgba(50,50,50,1); border:solid; color: white; font-family:Segoe UI; margin-left:auto; margin-right:auto; margin-top:10px; max-width:500px; padding:10px; padding-left:30px; }
+
+#success{font-family:Segoe UI; font-size:2em; margin-left:auto; margin-right:auto; max-width:500px;}
+.fail{color:rgba(200,50,50,1); font-family:Segoe UI; font-size:2em; margin-left:auto; margin-right:auto; max-width:500px;}

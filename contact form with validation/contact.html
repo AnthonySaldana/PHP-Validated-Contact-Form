@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+<title>Contact</title>
+<link href="contact.css" type="text/css" rel="stylesheet"/>
+<meta charset="UTF-8">
+<meta name="description" content="Web development service contact">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript,web,website,development,hosting,design,SEO,business,leafy,leafyweb,contact">
+<meta name="author" content="Anthony Saldana">
+</head>
+
+<body>
+ <!-- This form will be used to send an email with the information put inside. A simple contact form.-->
+<form id="contactform" name="contactform" method="post" action="send_email_form.php">
+	<table width="450px">
+		<tr>
+			<td>
+			<p> * represents a required field</p>
+			</td>
+		</tr>
+<!-- Email Address Input-->
+		<tr>
+			<td>
+			<label for="email_address">Email Address:*</label>
+			</td>
+			
+			<td>
+			<input type="text" name="email_address" maxlength="50" size="30">
+			</td>
+		</tr>
+<!-- phone number input-->
+		<tr>
+			<td>
+			<label for="phone_number">Phone:</label>
+			</td>
+			
+			<td>
+			<input type="text" name="phone_number" maxlength="30" size="30">
+			</td>
+		</tr>
+<!-- company name -->
+		<tr>
+			<td>
+			<label for="company_name">Company Name:*</label>
+			</td>
+			
+			<td>
+			<input type="text" name="company_name" maxlength="100" size="30">
+			</td>
+		</tr>
+<!-- help section -->
+		<tr>
+			<td>
+			<label for="helptext">How can we* </br>help you?</label>
+			</td>
+			
+			<td>
+			<textarea name="helptext" maxlength="1000" cols="25" rows="6" placeholder="Feel free to ask anything. No pressure.(At least 20 characters)"></textarea>
+			</td>
+		</tr>
+<!-- submit button -->
+		<tr>
+			<td>
+			<input type="submit" value="Submit">
+			</td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>
